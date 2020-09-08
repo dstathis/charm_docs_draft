@@ -4,6 +4,13 @@
 
 ## Different platforms
 
+Charms can target a number of diffent platforms including but not limited to:
+
+- Kubernetes
+- Ubuntu
+    - focal
+    - bionic
+
 ## Anatomy of a charm
 A charm is a bundle of files containing the following:
 
@@ -18,3 +25,9 @@ A charm is a bundle of files containing the following:
 Above information taken from [here](https://discourse.juju.is/t/components-of-a-charm/1038)
 
 ## Charm frameworks
+
+- Operator: The currently recommended framework for writing charms. Python based.
+
+- Reactive: Previous python based charm framework.
+
+- Others?
