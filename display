@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! -d venv ]; then
+	python3 -m virtualenv venv
+fi
+
+. venv/bin/activate
+
+grip --help > /dev/null
+
+if [ $? -eq 127 ]; then
+	pip install grip
+fi
+
+grip -b what_is_a_charm.md
