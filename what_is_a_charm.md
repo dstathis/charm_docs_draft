@@ -2,6 +2,8 @@
 
 ## Definition
 
+A charm is a bundle of instruction for Juju to use when deploying a service. The charm defines how what Juju should do for various events as well as defining how it interacts with other services.
+
 ## Different platforms
 
 Charms can target a number of diffent platforms including but not limited to:
@@ -10,6 +12,10 @@ Charms can target a number of diffent platforms including but not limited to:
 - Ubuntu
     - focal
     - bionic
+    - xenial
+- CentOS
+- openSUSE
+- MS Windows
 
 ## Anatomy of a charm
 A charm is a bundle of files containing the following:
